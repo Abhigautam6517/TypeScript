@@ -1,0 +1,9 @@
+How to remove duplucate error?
+
+just write in export{} in ts file then they dont show error bcz app.ts file when convert in js file so they use use-strict mode.
+
+if I change my code in ts file so we need everytime in tsc app.ts?
+
+no , if you want your code is save and then automatically run it so you use watch
+tsc app.ts --watch
+
